@@ -1,19 +1,16 @@
-# Entorno virtual
-venv/
-
-# Archivos de configuración de VS Code
-.vscode/
-
 # Archivos de Python
-*.pyc
 __pycache__/
+*.pyc
 
-# Archivos de entorno
-.env
-
-# Archivos de logs
+# Logs
 *.log
 
-# Ignorar archivos específicos del sistema operativo
-.DS_Store  # macOS
-Thumbs.db  # Windows
+# Archivos PDF de prueba
+*.pdf
+
+# Entornos virtuales
+venv/
+.env
+
+# Git
+.gitignore

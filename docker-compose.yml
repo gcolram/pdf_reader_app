@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  pdf-reader:
+    build: .
+    container_name: pdf-reader
+    ports:
+      - "5000:5000"
+    restart: always
